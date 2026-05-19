@@ -1,6 +1,9 @@
+import Navbar from "@/components/Navbar";
+
 const Home = () => {
   return (
     <main className="min-h-screen bg-white text-black">
+      <Navbar />
       <section className="mx-auto max-w-7xl px-6 py-20">
         <h1 className="text-5xl font-bold">Next.js Shopware Storefront</h1>
 
